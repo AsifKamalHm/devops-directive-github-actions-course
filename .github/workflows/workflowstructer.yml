@@ -1,0 +1,11 @@
+name: workflow, jobs, and steps
+on: 
+  workflow_dispatch:
+jobs:
+  job-1:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "A job consist of"
+      - run: echo "one or more steps"
+      - run: echo "Which run squentially"
+      - run: echo "within the same comput env"
