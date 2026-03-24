@@ -9,3 +9,8 @@ jobs:
       - run: echo "one or more steps"
       - run: echo "Which run squentially"
       - run: echo "within the same comput env"
+  job-2:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "multiple jobs can run in parallel"
+      
