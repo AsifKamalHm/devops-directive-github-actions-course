@@ -13,5 +13,5 @@ jobs:
     echo-event:
             runs-on: ubuntu-24.04
             steps:
-                - run: echo "This workflow is triggered by push, pull request, schedule and workflow dispatch events"
+                - run: echo "This workflow is triggered by push, pull request, schedule and workflow dispatch events...."
 
