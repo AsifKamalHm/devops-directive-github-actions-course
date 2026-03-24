@@ -2,7 +2,7 @@ name: Triggering Events
 on: 
   push:
     branches:
-        - "testing workflows"
+        - "test-branch"
   pull_request:
     branches:
         - "test-branch"
